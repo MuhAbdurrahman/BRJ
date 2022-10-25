@@ -165,3 +165,37 @@
     <br>
     <br>
     </div>
+        
+        <div class="mx-auto mt-8 relative container -z-10">
+        <div class="bg-[url('https://birran.com/Files/Theme/Birran2020/assets/img/img_background/bg_projek.png')]" data-aos="fade-down" data-aos-duration="1000">
+        <div class="flex flex-col md:flex-row 12 p-5 grid-cols-2 max-w-[1200px]" data-aos="fade-down" data-aos-duration="2000">
+            <div>
+            <h1 class="ml-14 mt-14 text-2xl font-['Nunito Sans'] font-bold text-white">ANGGOTA DAN <br> FOTO DOKUMENTASI</h1>
+            <br>
+            <p class="ml-14 text-white text-xl font-['Nunito Sans']">BRJ telah banyak membantu siswa <br> menyelesaikan tugas coding web dan android</p>
+            <br>
+            <br>
+            <Button class="ml-14 rounded-full bg-white text-blue-400 px-14 py-5 text-xl font-['Nunito Sans']">SELENGKAPNYA</Button>
+            </div>
+        
+    
+    
+        
+        <!-- Slider main container -->
+        <div class="mx-auto mt-8 relative container" data-aos="fade-up" data-aos-duration="2000">
+    <div class="swiper lg:h-auto lg:w-1/2">
+      <!-- Additional  required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img class="object-center object-cover w-full" src="https://media.discordapp.net/attachments/1022146956648271932/1023742004208881674/brj2.png?width=838&height=670" alt=""></div>
+        <div class="swiper-slide"><img class="object-center object-cover w-full" src="https://media.discordapp.net/attachments/1022146956648271932/1023742004598935635/brj3.png?width=838&height=670" alt=""></div>
+        <div class="swiper-slide"><img class="object-center object-cover w-full" src="https://media.discordapp.net/attachments/1022146956648271932/1023742004896727040/brj1.png?width=838&height=670" alt=""></div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      
+    </div>
+    </div>
+</div>
+</div>
+</div>
