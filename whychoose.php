@@ -1,5 +1,4 @@
 <div class="bg-white">
-    
    <div class="lg:mt-32 mx-auto lg:max-w-5xl " data-aos="fade-up" data-aos-duration="3000">
     <div class="flex justify-center">
         <h1 class="text-[#000000] mt-28 text-4xl" data-aos="fade-up" data-aos-duration="20000">
