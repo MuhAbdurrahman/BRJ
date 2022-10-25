@@ -245,3 +245,55 @@
           <br>
         
     </div> 
+   </body>
+
+<!-- JAVA SCRIPT CARAUSEL -->
+    <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  speed:400,
+  spaceBetween:100,
+  effect: "fade",
+  loop: true,
+  autoplay:{
+    effect: "fade",
+    delay:3000,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+
+  }
+});
+    let intro = document.querySelector('.intro');
+    let logo = document.querySelector('.logo-header');
+    let logoSpan = document.querySelectorAll('.logo');
+
+    window.addEventListener('DOMContentLoaded', ()=> {
+        setTimeout(()=> {
+            logoSpan.forEach((span, idx)=> {
+                setTimeout(()=>{
+                    span.classList.add('active');
+                }, (idx + 1) * 300)
+            });
+
+            setTimeout(()=>{
+                logoSpan.forEach((span, idx)=>{
+                    setTimeout(()=>{
+                        span.classList.remove('active');
+                        span.classList.add('fade');
+                    }, (idx + 1) * 50)
+                })
+            },2000);
+            setTimeout(()=>{
+                intro.style.top = '-100vh';
+            }, 2300)
+        })
+    })
+  </script>
+
+<script>
+  AOS.init();
+</script>   
+</html>
